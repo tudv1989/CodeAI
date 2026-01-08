@@ -15,3 +15,10 @@ export interface ChatMessage {
   role: 'dealer' | 'user';
   content: string;
 }
+
+export interface User {
+  username: string;
+  displayName: string;
+  balance: number;
+  avatarSeed: string;
+}
